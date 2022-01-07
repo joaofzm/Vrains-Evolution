@@ -9,19 +9,24 @@ public class Main {
 		Frame frame = new Frame(Config.x,Config.y);
 		
 		MenuPanel initialPanel = new MenuPanel(frame.getJFrame());
+		frame.getJFrame().getContentPane().removeAll();
+		frame.getJFrame().getContentPane().add(initialPanel.getPanel().getJComponent());
+		frame.getJFrame().revalidate();
+		initialPanel.getPanel().getJComponent().repaint();
 		
-		new java.util.Timer().schedule( 
-		        new java.util.TimerTask() {
-		            @Override
-		            public void run() {
-		        		frame.getJFrame().getContentPane().removeAll();
-		        		frame.getJFrame().getContentPane().add(initialPanel.getPanel().getJComponent());
-		        		frame.getJFrame().revalidate();
-		        		initialPanel.getPanel().getJComponent().repaint();
-		            }
-		        }, 
-		        2000 
-		);
+//		new java.util.Timer().schedule( 
+//		        new java.util.TimerTask() {
+//		            @Override
+//		            public void run() {
+//		        		MenuPanel initialPanel = new MenuPanel(frame.getJFrame());
+//		        		frame.getJFrame().getContentPane().removeAll();
+//		        		frame.getJFrame().getContentPane().add(initialPanel.getPanel().getJComponent());
+//		        		frame.getJFrame().revalidate();
+//		        		initialPanel.getPanel().getJComponent().repaint();
+//		            }
+//		        }, 
+//		        2500 
+//		);
 		
 	}
 }

@@ -87,6 +87,14 @@ public class MenuPanel implements ActionListener {
 			newPanel.getPanel().getJComponent().repaint();
 		}
 		
+		if (e.getSource() == profileButton.getJComponent()) {
+			DuelPanel newPanel = new DuelPanel(frame);
+			frame.getContentPane().removeAll();
+			frame.getContentPane().add(newPanel.getPanel().getJComponent());
+			frame.revalidate();
+			newPanel.getPanel().getJComponent().repaint();
+		}
+		
 		if (e.getSource() == optionsButton.getJComponent()) {
 			SettingsPanel newPanel = new SettingsPanel(frame);
 			frame.getContentPane().removeAll();

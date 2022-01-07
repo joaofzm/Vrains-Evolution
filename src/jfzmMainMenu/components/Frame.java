@@ -28,12 +28,9 @@ public class Frame {
 		 * the frame.
 		 */
 		if (Config.res == 1) {
-			frame.setContentPane(
-//					new JLabel(new ImageIcon(getClass().getClassLoader().getResource("background1920x1080.png"))));
-					new JLabel(new ImageIcon(getClass().getClassLoader().getResource("testGif.gif"))));
+			frame.setContentPane(new JLabel(new ImageIcon(getClass().getClassLoader().getResource("background1920x1080.png"))));
 		} else if (Config.res == 2) {
-			frame.setContentPane(
-					new JLabel(new ImageIcon(getClass().getClassLoader().getResource("background1280x720.png"))));
+			frame.setContentPane(new JLabel(new ImageIcon(getClass().getClassLoader().getResource("background1280x720.png"))));
 		}
 
 		frame.setSize(x, y);
