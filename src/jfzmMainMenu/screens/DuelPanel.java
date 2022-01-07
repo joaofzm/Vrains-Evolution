@@ -38,71 +38,132 @@ public class DuelPanel implements ActionListener {
 
 		panel = new Panel(1920, 1080);
 
-		exitButton = new Button(1600, 0, 230, 70, "Return",255,255,255);
+		exitButton = new Button(1600, 0, 230, 70, "Return", 255, 255, 255);
 		exitButton.getJComponent().addActionListener(this);
 		panel.add(exitButton);
-		
-		//------------------------------------------------------------------
-		FieldButton tst = new FieldButton(600, 678.5, 153, 223);
-		tst.getJComponent().addActionListener(this);
-		panel.add(tst);
-		
-		FieldButton tst2 = new FieldButton(800, 678.5, 153, 223);
-		tst2.getJComponent().addActionListener(this);
-		panel.add(tst2);
-		
-		FieldButton tst3 = new FieldButton(1000, 678.5, 153, 223);
-		tst3.getJComponent().addActionListener(this);
-		panel.add(tst3);
-		
-		FieldButton tst4 = new FieldButton(1200, 678.5, 153, 223);
-		tst4.getJComponent().addActionListener(this);
-		panel.add(tst4);
-		
-		FieldButton tst5 = new FieldButton(1400, 678.5, 153, 223);
-		tst5.getJComponent().addActionListener(this);
-		panel.add(tst5);
-		
-		FieldButton tst6 = new FieldButton(1600, 678.5, 153, 223);
-		tst6.getJComponent().addActionListener(this);
-		panel.add(tst6);
-		
-		FieldButton ftst = new FieldButton(1100, 428.5, 153, 223);
-		ftst.getJComponent().addActionListener(this);
-		panel.add(ftst);
-		
-		FieldButton otst = new FieldButton(600, 178.5, 153, 223);
-		otst.getJComponent().addActionListener(this);
-		panel.add(otst);
-		
-		FieldButton otst2 = new FieldButton(800, 178.5, 153, 223);
-		otst2.getJComponent().addActionListener(this);
-		panel.add(otst2);
-		
-		FieldButton otst3 = new FieldButton(1000, 178.5, 153, 223);
-		otst3.getJComponent().addActionListener(this);
-		panel.add(otst3);
-		
-		FieldButton otst4 = new FieldButton(1200, 178.5, 153, 223);
-		otst4.getJComponent().addActionListener(this);
-		panel.add(otst4);
-		
-		FieldButton otst5 = new FieldButton(1400, 178.5, 153, 223);
-		otst5.getJComponent().addActionListener(this);
-		panel.add(otst5);
-		
-		FieldButton otst6 = new FieldButton(1600, 178.5, 153, 223);
-		otst6.getJComponent().addActionListener(this);
-		panel.add(otst6);
-		//------------------------------------------------------------------
 
+		// ------------------------------------------------------------------
+		FieldButton row1_1 = new FieldButton(600, 123, 138, 201);
+		row1_1.getJComponent().addActionListener(this);
+		panel.add(row1_1);
+
+		FieldButton row1_2 = new FieldButton(750, 123, 138, 201);
+		row1_2.getJComponent().addActionListener(this);
+		panel.add(row1_2);
+
+		FieldButton row1_3 = new FieldButton(900, 123, 138, 201);
+		row1_3.getJComponent().addActionListener(this);
+		panel.add(row1_3);
+
+		FieldButton row1_4 = new FieldButton(1050, 123, 138, 201);
+		row1_4.getJComponent().addActionListener(this);
+		panel.add(row1_4);
+
+		FieldButton row1_5 = new FieldButton(1200, 123, 138, 201);
+		row1_5.getJComponent().addActionListener(this);
+		panel.add(row1_5);
+
+		FieldButton row1_6 = new FieldButton(1350, 123, 138, 201);
+		row1_6.getJComponent().addActionListener(this);
+		panel.add(row1_6);
 		
+		FieldButton row1_7 = new FieldButton(1500, 123, 138, 201);
+		row1_7.getJComponent().addActionListener(this);
+		panel.add(row1_7);
+
+		FieldButton row2_1 = new FieldButton(600, 336, 138, 201);
+		row2_1.getJComponent().addActionListener(this);
+		panel.add(row2_1);
+
+		FieldButton row2_2 = new FieldButton(750, 336, 138, 201);
+		row2_2.getJComponent().addActionListener(this);
+		panel.add(row2_2);
+
+		FieldButton row2_3 = new FieldButton(900, 336, 138, 201);
+		row2_3.getJComponent().addActionListener(this);
+		panel.add(row2_3);
+
+		FieldButton row2_4 = new FieldButton(1050, 336, 138, 201);
+		row2_4.getJComponent().addActionListener(this);
+		panel.add(row2_4);
+
+		FieldButton row2_5 = new FieldButton(1200, 336, 138, 201);
+		row2_5.getJComponent().addActionListener(this);
+		panel.add(row2_5);
+
+		FieldButton row2_6 = new FieldButton(1350, 336, 138, 201);
+		row2_6.getJComponent().addActionListener(this);
+		panel.add(row2_6);
+		
+		FieldButton row2_7 = new FieldButton(1500, 336, 138, 201);
+		row2_7.getJComponent().addActionListener(this);
+		panel.add(row2_7);
+		
+		FieldButton row3_1 = new FieldButton(600, 549, 138, 201);
+		row3_1.getJComponent().addActionListener(this);
+		panel.add(row3_1);
+
+		FieldButton row3_2 = new FieldButton(750, 549, 138, 201);
+		row3_2.getJComponent().addActionListener(this);
+		panel.add(row3_2);
+
+		FieldButton row3_3 = new FieldButton(900, 549, 138, 201);
+		row3_3.getJComponent().addActionListener(this);
+		panel.add(row3_3);
+
+		FieldButton row3_4 = new FieldButton(1050, 549, 138, 201);
+		row3_4.getJComponent().addActionListener(this);
+		panel.add(row3_4);
+
+		FieldButton row3_5 = new FieldButton(1200, 549, 138, 201);
+		row3_5.getJComponent().addActionListener(this);
+		panel.add(row3_5);
+
+		FieldButton row3_6 = new FieldButton(1350, 549, 138, 201);
+		row3_6.getJComponent().addActionListener(this);
+		panel.add(row3_6);
+		
+		FieldButton row3_7 = new FieldButton(1500, 549, 138, 201);
+		row3_7.getJComponent().addActionListener(this);
+		panel.add(row3_7);
+		
+		FieldButton row4_1 = new FieldButton(600, 762, 138, 201);
+		row4_1.getJComponent().addActionListener(this);
+		panel.add(row4_1);
+
+		FieldButton row4_2 = new FieldButton(750, 762, 138, 201);
+		row4_2.getJComponent().addActionListener(this);
+		panel.add(row4_2);
+
+		FieldButton row4_3 = new FieldButton(900, 762, 138, 201);
+		row4_3.getJComponent().addActionListener(this);
+		panel.add(row4_3);
+
+		FieldButton row4_4 = new FieldButton(1050, 762, 138, 201);
+		row4_4.getJComponent().addActionListener(this);
+		panel.add(row4_4);
+
+		FieldButton row4_5 = new FieldButton(1200, 762, 138, 201);
+		row4_5.getJComponent().addActionListener(this);
+		panel.add(row4_5);
+
+		FieldButton row4_6 = new FieldButton(1350, 762, 138, 201);
+		row4_6.getJComponent().addActionListener(this);
+		panel.add(row4_6);
+		
+		FieldButton row4_7 = new FieldButton(1500, 762, 138, 201);
+		row4_7.getJComponent().addActionListener(this);
+		panel.add(row4_7);
+		
+		
+		// ------------------------------------------------------------------
+
 		bg = new JLabel();
 		ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("background1920x1080.png"));
-		bg.setSize(1920,1080);
-		if (Config.res==2) {
+		bg.setSize(1920, 1080);
+		if (Config.res == 2) {
 			icon = new ImageIcon(getClass().getClassLoader().getResource("background1280x720.png"));
-			bg.setSize(1280,720);
+			bg.setSize(1280, 720);
 		}
 		bg.setIcon(icon);
 		panel.getJComponent().add(bg);
@@ -120,6 +181,11 @@ public class DuelPanel implements ActionListener {
 			frame.getContentPane().add(newPanel.getPanel().getJComponent());
 			frame.revalidate();
 			newPanel.getPanel().getJComponent().repaint();
+
+//			ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("background1920x1080.png"));
+//			bg.setIcon(icon);
+//			panel.getJComponent().add(bg);
+
 		}
 	}
 
