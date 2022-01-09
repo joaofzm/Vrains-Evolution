@@ -67,7 +67,7 @@ public class DuelPanel implements ActionListener {
 		row1_6.getJComponent().addActionListener(this);
 		panel.add(row1_6);
 		
-		FieldButton row1_7 = new FieldButton(1500, 123, 138, 201);
+		FieldButton row1_7 = new FieldButton(1510, 173, 138, 201);
 		row1_7.getJComponent().addActionListener(this);
 		panel.add(row1_7);
 
@@ -95,10 +95,6 @@ public class DuelPanel implements ActionListener {
 		row2_6.getJComponent().addActionListener(this);
 		panel.add(row2_6);
 		
-		FieldButton row2_7 = new FieldButton(1500, 336, 138, 201);
-		row2_7.getJComponent().addActionListener(this);
-		panel.add(row2_7);
-		
 		FieldButton row3_1 = new FieldButton(600, 549, 138, 201);
 		row3_1.getJComponent().addActionListener(this);
 		panel.add(row3_1);
@@ -122,10 +118,6 @@ public class DuelPanel implements ActionListener {
 		FieldButton row3_6 = new FieldButton(1350, 549, 138, 201);
 		row3_6.getJComponent().addActionListener(this);
 		panel.add(row3_6);
-		
-		FieldButton row3_7 = new FieldButton(1500, 549, 138, 201);
-		row3_7.getJComponent().addActionListener(this);
-		panel.add(row3_7);
 		
 		FieldButton row4_1 = new FieldButton(600, 762, 138, 201);
 		row4_1.getJComponent().addActionListener(this);
@@ -151,7 +143,7 @@ public class DuelPanel implements ActionListener {
 		row4_6.getJComponent().addActionListener(this);
 		panel.add(row4_6);
 		
-		FieldButton row4_7 = new FieldButton(1500, 762, 138, 201);
+		FieldButton row4_7 = new FieldButton(1510, 712, 138, 201);
 		row4_7.getJComponent().addActionListener(this);
 		panel.add(row4_7);
 		
@@ -159,7 +151,7 @@ public class DuelPanel implements ActionListener {
 		// ------------------------------------------------------------------
 
 		bg = new JLabel();
-		ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("background1920x1080.png"));
+		ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("duelbackground1920x1080.png"));
 		bg.setSize(1920, 1080);
 		if (Config.res == 2) {
 			icon = new ImageIcon(getClass().getClassLoader().getResource("background1280x720.png"));
