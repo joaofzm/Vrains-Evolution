@@ -43,111 +43,125 @@ public class DuelPanel implements ActionListener {
 		panel.add(exitButton);
 
 		// ------------------------------------------------------------------
-		FieldButton row1_1 = new FieldButton(600, 123, 138, 201);
-		row1_1.getJComponent().addActionListener(this);
-		panel.add(row1_1);
+		FieldButton oppS1 = new FieldButton(631.5, 123, 138, 201);
+		oppS1.getJComponent().addActionListener(this);
+		panel.add(oppS1);
 
-		FieldButton row1_2 = new FieldButton(750, 123, 138, 201);
-		row1_2.getJComponent().addActionListener(this);
-		panel.add(row1_2);
+		FieldButton oppS2 = new FieldButton(832.5, 123, 138, 201);
+		oppS2.getJComponent().addActionListener(this);
+		panel.add(oppS2);
 
-		FieldButton row1_3 = new FieldButton(900, 123, 138, 201);
-		row1_3.getJComponent().addActionListener(this);
-		panel.add(row1_3);
+		FieldButton oppS3 = new FieldButton(1033.5, 123, 138, 201);
+		oppS3.getJComponent().addActionListener(this);
+		panel.add(oppS3);
 
-		FieldButton row1_4 = new FieldButton(1050, 123, 138, 201);
-		row1_4.getJComponent().addActionListener(this);
-		panel.add(row1_4);
+		FieldButton oppS4 = new FieldButton(1234.5, 123, 138, 201);
+		oppS4.getJComponent().addActionListener(this);
+		panel.add(oppS4);
 
-		FieldButton row1_5 = new FieldButton(1200, 123, 138, 201);
-		row1_5.getJComponent().addActionListener(this);
-		panel.add(row1_5);
-
-		FieldButton row1_6 = new FieldButton(1350, 123, 138, 201);
-		row1_6.getJComponent().addActionListener(this);
-		panel.add(row1_6);
+		FieldButton oppS5 = new FieldButton(1435.5, 123, 138, 201);
+		oppS5.getJComponent().addActionListener(this);
+		panel.add(oppS5);
 		
-		FieldButton row1_7 = new FieldButton(1510, 173, 138, 201);
-		row1_7.getJComponent().addActionListener(this);
-		panel.add(row1_7);
+		FieldButton oppA1 = new FieldButton(631.5, 336, 138, 201);
+		oppA1.getJComponent().addActionListener(this);
+		panel.add(oppA1);
 
-		FieldButton row2_1 = new FieldButton(600, 336, 138, 201);
-		row2_1.getJComponent().addActionListener(this);
-		panel.add(row2_1);
+		FieldButton oppA2 = new FieldButton(832.5, 336, 138, 201);
+		oppA2.getJComponent().addActionListener(this);
+		panel.add(oppA2);
 
-		FieldButton row2_2 = new FieldButton(750, 336, 138, 201);
-		row2_2.getJComponent().addActionListener(this);
-		panel.add(row2_2);
+		FieldButton oppA3 = new FieldButton(1033.5, 336, 138, 201);
+		oppA3.getJComponent().addActionListener(this);
+		panel.add(oppA3);
 
-		FieldButton row2_3 = new FieldButton(900, 336, 138, 201);
-		row2_3.getJComponent().addActionListener(this);
-		panel.add(row2_3);
+		FieldButton oppA4 = new FieldButton(1234.5, 336, 138, 201);
+		oppA4.getJComponent().addActionListener(this);
+		panel.add(oppA4);
 
-		FieldButton row2_4 = new FieldButton(1050, 336, 138, 201);
-		row2_4.getJComponent().addActionListener(this);
-		panel.add(row2_4);
-
-		FieldButton row2_5 = new FieldButton(1200, 336, 138, 201);
-		row2_5.getJComponent().addActionListener(this);
-		panel.add(row2_5);
-
-		FieldButton row2_6 = new FieldButton(1350, 336, 138, 201);
-		row2_6.getJComponent().addActionListener(this);
-		panel.add(row2_6);
+		FieldButton oppA5 = new FieldButton(1435.5, 336, 138, 201);
+		oppA5.getJComponent().addActionListener(this);
+		panel.add(oppA5);
 		
-		FieldButton row3_1 = new FieldButton(600, 549, 138, 201);
-		row3_1.getJComponent().addActionListener(this);
-		panel.add(row3_1);
+		FieldButton oppD1 = new FieldButton(600, 367.5, 201, 138);
+		oppD1.getJComponent().addActionListener(this);
+		panel.add(oppD1);
 
-		FieldButton row3_2 = new FieldButton(750, 549, 138, 201);
-		row3_2.getJComponent().addActionListener(this);
-		panel.add(row3_2);
+		FieldButton oppD2 = new FieldButton(801, 367.5, 201, 138);
+		oppD2.getJComponent().addActionListener(this);
+		panel.add(oppD2);
 
-		FieldButton row3_3 = new FieldButton(900, 549, 138, 201);
-		row3_3.getJComponent().addActionListener(this);
-		panel.add(row3_3);
+		FieldButton oppD3 = new FieldButton(1002, 367.5, 201, 138);
+		oppD3.getJComponent().addActionListener(this);
+		panel.add(oppD3);
 
-		FieldButton row3_4 = new FieldButton(1050, 549, 138, 201);
-		row3_4.getJComponent().addActionListener(this);
-		panel.add(row3_4);
+		FieldButton oppD4 = new FieldButton(1203, 367.5, 201, 138);
+		oppD4.getJComponent().addActionListener(this);
+		panel.add(oppD4);
 
-		FieldButton row3_5 = new FieldButton(1200, 549, 138, 201);
-		row3_5.getJComponent().addActionListener(this);
-		panel.add(row3_5);
-
-		FieldButton row3_6 = new FieldButton(1350, 549, 138, 201);
-		row3_6.getJComponent().addActionListener(this);
-		panel.add(row3_6);
+		FieldButton oppD5 = new FieldButton(1404, 367.5, 201, 138);
+		oppD5.getJComponent().addActionListener(this);
+		panel.add(oppD5);
 		
-		FieldButton row4_1 = new FieldButton(600, 762, 138, 201);
-		row4_1.getJComponent().addActionListener(this);
-		panel.add(row4_1);
+		FieldButton playerS1 = new FieldButton(631.5, 762, 138, 201);
+		playerS1.getJComponent().addActionListener(this);
+		panel.add(playerS1);
 
-		FieldButton row4_2 = new FieldButton(750, 762, 138, 201);
-		row4_2.getJComponent().addActionListener(this);
-		panel.add(row4_2);
+		FieldButton playerS2 = new FieldButton(832.5, 762, 138, 201);
+		playerS2.getJComponent().addActionListener(this);
+		panel.add(playerS2);
 
-		FieldButton row4_3 = new FieldButton(900, 762, 138, 201);
-		row4_3.getJComponent().addActionListener(this);
-		panel.add(row4_3);
+		FieldButton playerS3 = new FieldButton(1033.5, 762, 138, 201);
+		playerS3.getJComponent().addActionListener(this);
+		panel.add(playerS3);
 
-		FieldButton row4_4 = new FieldButton(1050, 762, 138, 201);
-		row4_4.getJComponent().addActionListener(this);
-		panel.add(row4_4);
+		FieldButton playerS4 = new FieldButton(1234.5, 762, 138, 201);
+		playerS4.getJComponent().addActionListener(this);
+		panel.add(playerS4);
 
-		FieldButton row4_5 = new FieldButton(1200, 762, 138, 201);
-		row4_5.getJComponent().addActionListener(this);
-		panel.add(row4_5);
-
-		FieldButton row4_6 = new FieldButton(1350, 762, 138, 201);
-		row4_6.getJComponent().addActionListener(this);
-		panel.add(row4_6);
+		FieldButton playerS5 = new FieldButton(1435.5, 762, 138, 201);
+		playerS5.getJComponent().addActionListener(this);
+		panel.add(playerS5);
 		
-		FieldButton row4_7 = new FieldButton(1510, 712, 138, 201);
-		row4_7.getJComponent().addActionListener(this);
-		panel.add(row4_7);
+		FieldButton playerA1 = new FieldButton(631.5, 549, 138, 201);
+		playerA1.getJComponent().addActionListener(this);
+		panel.add(playerA1);
+
+		FieldButton playerA2 = new FieldButton(832.5, 549, 138, 201);
+		playerA2.getJComponent().addActionListener(this);
+		panel.add(playerA2);
+
+		FieldButton playerA3 = new FieldButton(1033.5, 549, 138, 201);
+		playerA3.getJComponent().addActionListener(this);
+		panel.add(playerA3);
+
+		FieldButton playerA4 = new FieldButton(1234.5, 549, 138, 201);
+		playerA4.getJComponent().addActionListener(this);
+		panel.add(playerA4);
+
+		FieldButton playerA5 = new FieldButton(1435.5, 549, 138, 201);
+		playerA5.getJComponent().addActionListener(this);
+		panel.add(playerA5);
 		
-		
+		FieldButton playerD1 = new FieldButton(600, 580.5, 201, 138);
+		playerD1.getJComponent().addActionListener(this);
+		panel.add(playerD1);
+
+		FieldButton playerD2 = new FieldButton(801, 580.5, 201, 138);
+		playerD2.getJComponent().addActionListener(this);
+		panel.add(playerD2);
+
+		FieldButton playerD3 = new FieldButton(1002, 580.5, 201, 138);
+		playerD3.getJComponent().addActionListener(this);
+		panel.add(playerD3);
+
+		FieldButton playerD4 = new FieldButton(1203, 580.5, 201, 138);
+		playerD4.getJComponent().addActionListener(this);
+		panel.add(playerD4);
+
+		FieldButton playerD5 = new FieldButton(1404, 580.5, 201, 138);
+		playerD5.getJComponent().addActionListener(this);
+		panel.add(playerD5);
 		// ------------------------------------------------------------------
 
 		bg = new JLabel();
