@@ -46,10 +46,10 @@ public class SettingsPanel implements ActionListener {
 		
 		bg = new JLabel();
 		
-		ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("background1920x1080.png"));
+		ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Backgrounds/bg1920x1080.png"));
 		bg.setSize(1920,1080);
 		if (Config.res==2) {
-			icon = new ImageIcon(getClass().getClassLoader().getResource("background1280x720.png"));
+			icon = new ImageIcon(getClass().getClassLoader().getResource("Backgrounds/bg1280x720.png"));
 			bg.setSize(1280,720);
 		}
 		bg.setIcon(icon);

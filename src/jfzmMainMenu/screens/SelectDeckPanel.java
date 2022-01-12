@@ -44,19 +44,19 @@ public class SelectDeckPanel implements ActionListener {
 		logo = new Label(0, 0, 1920, 200, "CHOOSE YOUR DECK", 150, 255, 255, 0);
 		panel.add(logo);
 		
-		nessie = new ImageButton(80, 250, 400, 650, "nessie.png");
+		nessie = new ImageButton(80, 250, 400, 650, "Menu Components/nessie.png");
 		nessie.getJComponent().addActionListener(this);
 		panel.add(nessie);
 		
-		aleister = new ImageButton(530, 250, 400, 650, "aleister.png");
+		aleister = new ImageButton(530, 250, 400, 650, "Menu Components/aleister.png");
 		aleister.getJComponent().addActionListener(this);
 		panel.add(aleister);
 		
-		talker = new ImageButton(980, 250, 400, 650, "decodeTalker.png");
+		talker = new ImageButton(980, 250, 400, 650, "Menu Components/decodeTalker.png");
 		talker.getJComponent().addActionListener(this);
 		panel.add(talker);
 		
-		levieneer = new ImageButton(1430, 250, 400, 650, "levianee.png");
+		levieneer = new ImageButton(1430, 250, 400, 650, "Menu Components/levianee.png");
 		levieneer.getJComponent().addActionListener(this);
 		panel.add(levieneer);
 		
@@ -66,10 +66,10 @@ public class SelectDeckPanel implements ActionListener {
 		
 		bg = new JLabel();
 		
-		ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("background1920x1080.png"));
+		ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Backgrounds/bg1920x1080.png"));
 		bg.setSize(1920,1080);
 		if (Config.res==2) {
-			icon = new ImageIcon(getClass().getClassLoader().getResource("background1280x720.png"));
+			icon = new ImageIcon(getClass().getClassLoader().getResource("Backgrounds/bg1280x720.png"));
 			bg.setSize(1280,720);
 		}
 		bg.setIcon(icon);

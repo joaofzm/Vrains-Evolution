@@ -38,8 +38,8 @@ public class MenuPanel implements ActionListener {
 
 		panel = new Panel(1920,1080);
 		
-		logo = new Label(0, 120, 1920, 200, "VRAINS EVOLUTION",150,255,255,0);
-		panel.add(logo);
+//		logo = new Label(0, 120, 1920, 200, "VRAINS EVOLUTION",150,255,255,0);
+//		panel.add(logo);
 
 		startButton = new Button(884, 450, 152, 70, "Duel",255,255,255);
 		startButton.getJComponent().addActionListener(this);
@@ -63,10 +63,10 @@ public class MenuPanel implements ActionListener {
 		
 		bg = new JLabel();
 		
-		ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("background1920x1080.png"));
+		ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Backgrounds/menubg1920x1080.png"));
 		bg.setSize(1920,1080);
 		if (Config.res==2) {
-			icon = new ImageIcon(getClass().getClassLoader().getResource("background1280x720.png"));
+			icon = new ImageIcon(getClass().getClassLoader().getResource("Backgrounds/menubg1280x720.png"));
 			bg.setSize(1280,720);
 		}
 		bg.setIcon(icon);

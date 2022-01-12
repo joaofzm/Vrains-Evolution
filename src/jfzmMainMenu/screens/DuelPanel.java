@@ -173,10 +173,10 @@ public class DuelPanel implements ActionListener {
 		// ------------------------------------------------------------------
 
 		bg = new JLabel();
-		ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("duelbackground1920x1080.png"));
+		ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Backgrounds/duelbackground1920x1080.png"));
 		bg.setSize(1920, 1080);
 		if (Config.res == 2) {
-			icon = new ImageIcon(getClass().getClassLoader().getResource("duelbackground1280x720.png"));
+			icon = new ImageIcon(getClass().getClassLoader().getResource("Backgrounds/duelbackground1280x720.png"));
 			bg.setSize(1280, 720);
 		}
 		bg.setIcon(icon);
