@@ -52,11 +52,11 @@ public class SelectDeckPanel implements ActionListener {
 		aleister.getJComponent().addActionListener(this);
 		panel.add(aleister);
 		
-		talker = new ImageButton(980, 250, 400, 650, "Menu Components/decodeTalker.png");
+		talker = new ImageButton(980, 250, 400, 650, "Menu Components/locked.png");
 		talker.getJComponent().addActionListener(this);
 		panel.add(talker);
 		
-		levieneer = new ImageButton(1430, 250, 400, 650, "Menu Components/levianee.png");
+		levieneer = new ImageButton(1430, 250, 400, 650, "Menu Components/locked.png");
 		levieneer.getJComponent().addActionListener(this);
 		panel.add(levieneer);
 		

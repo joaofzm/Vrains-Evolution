@@ -1,10 +1,13 @@
 Started 01/01/2021
 
 Description
-Impact 28, Black with wihite border, outline size 6
-
+Retrofont 28, Black with wihite border, outline size 6
 Title
-Impact 52, Black with wihite border, outline size 6 
+Impact, RetroFont 58, Black with wihite border, outline size 6 
+
+
+
+
 
 
 
