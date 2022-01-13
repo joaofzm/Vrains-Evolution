@@ -49,7 +49,7 @@ public class MenuPanel implements ActionListener {
 		profileButton.getJComponent().addActionListener(this);
 		panel.add(profileButton);
 
-		decksButton = new Button(792, 650, 336, 80, "Edit decks",255,255,255);
+		decksButton = new Button(858, 650, 204, 80, "Decks",255,255,255);
 		decksButton.getJComponent().addActionListener(this);
 		panel.add(decksButton);
 		

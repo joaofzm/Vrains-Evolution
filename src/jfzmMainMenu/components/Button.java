@@ -56,7 +56,7 @@ public class Button implements FrameComponent, MouseListener {
 
 	@Override
 	public void mouseEntered(MouseEvent e) {
-		button.setForeground(Color.yellow);
+		button.setForeground(new Color(0,80,255));
 	}
 
 	@Override
