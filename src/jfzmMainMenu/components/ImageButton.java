@@ -10,7 +10,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JComponent;
 
-import jfzmMainMenu.main.Config;
+import jfzmMainMenu.launcher.Config;
 
 public class ImageButton  implements FrameComponent, MouseListener {
 	

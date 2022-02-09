@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JRootPane;
 
-import jfzmMainMenu.main.Config;
+import jfzmMainMenu.launcher.Config;
 
 public class Frame {
 

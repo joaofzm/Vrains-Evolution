@@ -10,7 +10,7 @@ import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 import javax.swing.border.Border;
 
-import jfzmMainMenu.main.Config;
+import jfzmMainMenu.launcher.Config;
 
 public class Label implements FrameComponent {
 

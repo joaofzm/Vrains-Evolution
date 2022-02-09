@@ -14,7 +14,7 @@ import jfzmMainMenu.components.Label;
 import jfzmMainMenu.components.Panel;
 import jfzmMainMenu.components.field.FieldButton;
 import jfzmMainMenu.components.sfx.ClickSound;
-import jfzmMainMenu.main.Config;
+import jfzmMainMenu.launcher.Config;
 
 public class DuelPanel implements ActionListener {
 

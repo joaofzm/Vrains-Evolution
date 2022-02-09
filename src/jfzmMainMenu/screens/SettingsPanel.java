@@ -13,7 +13,7 @@ import jfzmMainMenu.components.Frame;
 import jfzmMainMenu.components.Label;
 import jfzmMainMenu.components.Panel;
 import jfzmMainMenu.components.sfx.ClickSound;
-import jfzmMainMenu.main.Config;
+import jfzmMainMenu.launcher.Config;
 
 public class SettingsPanel implements ActionListener {
 

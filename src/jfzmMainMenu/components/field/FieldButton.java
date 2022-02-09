@@ -10,7 +10,7 @@ import javax.swing.JButton;
 import javax.swing.JComponent;
 
 import jfzmMainMenu.components.FrameComponent;
-import jfzmMainMenu.main.Config;
+import jfzmMainMenu.launcher.Config;
 
 public class FieldButton implements FrameComponent, MouseListener {
 	

@@ -2,8 +2,10 @@ package jfzmMainMenu.components;
 
 import javax.swing.JComponent;
 import javax.swing.JPanel;
+
+import jfzmMainMenu.launcher.Config;
+
 import java.awt.Color;
-import jfzmMainMenu.main.Config;
 
 public class Panel implements FrameComponent {
 	
