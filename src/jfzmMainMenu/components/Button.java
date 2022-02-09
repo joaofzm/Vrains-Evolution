@@ -28,7 +28,8 @@ public class Button implements FrameComponent, MouseListener {
 		button.setContentAreaFilled(false);
 		button.setText(text);
 		button.setForeground(new Color(red, green, blue));
-		button.setFont(new Font("Visitor TT1 BRK", Font.PLAIN, (int) (62 * Config.multiplier)));
+//		button.setFont(new Font("Visitor TT1 BRK", Font.PLAIN, (int) (62 * Config.multiplier)));
+		button.setFont(new Font("Impact", Font.PLAIN, (int) (62 * Config.multiplier)));
 		button.setFocusable(false);
 	
 		button.setBorder(BorderFactory.createLineBorder(Color.white));

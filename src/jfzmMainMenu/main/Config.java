@@ -2,8 +2,8 @@ package jfzmMainMenu.main;
 
 public class Config {
 
-	public static boolean borderless = true;
-	public static int res = 1;
+	public static boolean borderless = false;
+	public static int res = 2;
 	
 	public static int x;
 	public static int y;

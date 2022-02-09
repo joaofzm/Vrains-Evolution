@@ -27,7 +27,7 @@ public class FieldButton implements FrameComponent, MouseListener {
 		button.setContentAreaFilled(false);
 		button.setFocusable(false);
 		button.setBorder(BorderFactory.createLineBorder(Color.white));
-		button.setBorderPainted(true);
+		button.setBorderPainted(false);
 	}
 
 	@Override

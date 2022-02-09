@@ -36,7 +36,7 @@ public class Label implements FrameComponent {
 		label.setHorizontalAlignment(SwingConstants.CENTER);
 		label.setVerticalAlignment(SwingConstants.CENTER);
 		label.setText(text);
-		label.setFont(new Font("Visitor TT1 BRK", Font.PLAIN, (int) (fontSize * Config.multiplier)));
+		label.setFont(new Font("Impact", Font.PLAIN, (int) (fontSize * Config.multiplier)));
 		label.setForeground(new Color(red,green,blue));
 		
 //		label.setBorder(BorderFactory.createLineBorder(Color.BLUE, 5));

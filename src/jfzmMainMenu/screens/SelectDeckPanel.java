@@ -41,7 +41,7 @@ public class SelectDeckPanel implements ActionListener {
 
 		panel = new Panel(1920, 1080);
 
-		logo = new Label(0, 0, 1920, 200, "CHOOSE YOUR DECK", 150, 255, 255, 0);
+		logo = new Label(0, 0, 1920, 200, "CHOOSE YOUR DECK", 150, 50, 50, 255);
 		panel.add(logo);
 		
 		nessie = new ImageButton(80, 250, 400, 650, "Menu Components/nessie.png");

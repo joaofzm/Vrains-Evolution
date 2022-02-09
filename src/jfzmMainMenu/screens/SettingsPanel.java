@@ -37,7 +37,7 @@ public class SettingsPanel implements ActionListener {
 
 		panel = new Panel(1920, 1080);
 
-		logo = new Label(0, 0, 1920, 200, "SETTINGS", 150, 255, 255, 0);
+		logo = new Label(0, 0, 1920, 200, "SETTINGS", 150, 50, 50, 255);
 		panel.add(logo);
 
 		exitButton = new Button(845, 980, 230, 70, "Return",255,255,255);
