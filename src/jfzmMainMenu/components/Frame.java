@@ -40,7 +40,7 @@ public class Frame {
 		frame.setVisible(true);
 		ImageIcon windowIcon = new ImageIcon(getClass().getClassLoader().getResource("windowIcon.jpg"));
 		frame.setIconImage(windowIcon.getImage());
-		frame.setTitle("VRAINS Evolution");
+		frame.setTitle("Into the Vrains");
 		frame.setResizable(false);
 		frame.pack();
 		frame.setVisible(true);
